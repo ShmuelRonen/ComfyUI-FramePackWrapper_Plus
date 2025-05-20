@@ -1,0 +1,15 @@
+[project]
+name = "framepackwrapper_plus"
+description = "An extension that's adds advanced audio processing capabilities to ComfyUI with professional-grade audio effects and AI-powered audio enhancement."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["accelerate>=1.6.0", "diffusers>=0.33.1", "transformers>=4.46.2", "einops", "safetensors"]
+
+[project.urls]
+Repository = "https://github.com/ShmuelRonen/ComfyUI-FramePackWrapper_Plus"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-FramePackWrapper_Plus"
+Icon = ""
